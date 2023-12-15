@@ -153,10 +153,10 @@
             "value": "komendy-konfiguracyjne"
           },
           {
-            "label": "Utils",
-            "description": "Get the util commands of the bot.",
+            "label": "Narzędzia",
+            "description": "Uzyskaj komendy narzędziowe bota.",
             "emoji": "\uD83E\uDE9B",
-            "value": "util-commands"
+            "value": "narzędzia-komend"
           }
         ]
       }
