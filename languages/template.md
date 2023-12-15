@@ -2,97 +2,97 @@
 
 ```json
 {
-  "noPerms": "You do not have the permissions to execute this command.",
+  "noPerms": "Nie masz permisji aby użyć tej komendy.",
   "commands": {
     "botinfo": {
       "infoEmbed": {
-        "title": "Bot Information",
+        "title": "Informacje o Bocie",
         "fields": {
-          "supportServer": "Support Server",
-          "botOwners": "Bot Owners",
-          "website": "Website",
-          "botJoinDate": "Bot Join Date",
-          "inviteMe": "Invite Me",
+          "supportServer": "Wesprzyj Serwer",
+          "botOwners": "Właściciele Bota",
+          "website": "Strona",
+          "botJoinDate": "Data dołączenia Bota",
+          "inviteMe": "Zaproś mnie",
           "totalGuilds": "Total Guilds",
-          "botVersion": "Bot Version",
-          "botPing": "Bot Ping",
-          "botUptime": "Bot Uptime"
+          "botVersion": "Wersja Bota",
+          "botPing": "Spinguj Bota",
+          "botUptime": "Czas działania Bota"
         }
       }
     },
     "rps": {
       "messages": {
-        "message1": "I had",
-        "message2": "You had",
-        "tie": "We both chose"
+        "message1": "Miałem",
+        "message2": "Ty miałeś",
+        "tie": "Oboje wybraliśmy"
       },
       "titles": {
-        "win": "You Win!",
-        "lose": "I win!",
-        "tie": "It's a tie!"
+        "win": "Wygrywasz!",
+        "lose": "Ja wygrywam!",
+        "tie": "Remis!"
       },
-      "error": "Something went wrong."
+      "error": "Coś poszło nie tak."
     },
     "userinfo": {
       "infoEmbed": {
-        "title": "'s info",
+        "title": "informacje",
         "fields": {
           "userID": "ID",
-          "userNickname": "Nickname",
-          "userAccountCreated": "Account Created",
-          "userJoinDate": "User Join Date",
-          "userRoles": "Roles"
+          "userNickname": "Nazwa",
+          "userAccountCreated": "Konto założone",
+          "userJoinDate": "Data dołączenia użytkownika",
+          "userRoles": "Role"
         }
       },
-      "noRoles": "No roles",
-      "noNickname": "No nickname found"
+      "noRoles": "Brak roli",
+      "noNickname": "Nazwa nie znaleziona"
     },
     "setup": {
-      "alreadyInUse": "is already used for another game.",
-      "settingUpConfig": "Setting up the default configuration... Try again later.",
+      "alreadyInUse": "jest już w użyciu przez inną grę",
+      "settingUpConfig": "Ustawiam ustawienia domyślne... Spróbuj ponownie później.",
       "subCommands": {
         "messages": {
-          "alreadySetMessage": "{game} channel is already set to {channel}, nothing changed.",
-          "setupMessage": "{game} channel is set to {channel}"
+          "alreadySetMessage": "{game} gra jest już przypisana do kanału {channel}, nic się nie zmieniło.",
+          "setupMessage": "{game} gra jest przypisana do kanału {channel}"
         },
         "counting": {
           "embed": {
-            "title": "Successfully set up Counting!",
-            "description": "The next number is {number}",
+            "title": "Pomyślnie ustawiono grę Counting!",
+            "description": "Następny numer to {number}",
             "fields": [
               {
-                "name": "Warning",
-                "value": "I don't have the permission to delete a message in this channel."
+                "name": "Ostrzeżenie",
+                "value": "Nie mam permisji aby usunąć tę wiadomość na tym kanale."
               }
             ],
             "footer": {
-              "text": "PS: The previous counting number will be used (unless you kicked the bot)!"
+              "text": "PS: Będzie użyty poprzedni numer (no chyba że wyrzucisz Bota..)!"
             }
           }
         },
         "guesstheword": {
-          "setupMessage": "Guess the word channel is set to {channel}",
+          "setupMessage": "kanał gry Guess the word jest przypisany do kanału {channel}",
           "embed": {
-            "title": "Successfully set up Guess the Word!",
-            "description": "Send \\`welcome\\` to start the game!",
+            "title": "Pomyślnie ustawiono grę Guess the Word!",
+            "description": "Wyślij \\`welcome\\` aby rozpocząć grę!",
             "fields": [
               {
-                "name": "Warning",
-                "value": "I don't have the permission to send messages in this channel."
+                "name": "Ostrzeżenie",
+                "value": "Nie mam permisji aby wysyłać wiadomości na tym kanale."
               }
             ],
-            "footer": "PS: The previous guess will be used (unless you kicked the bot)!"
+            "footer": "PS: Będzie użyte poprzednie zgadnięcie (no chyba że wyrzucisz Bota..)!"
           }
         },
         "guessthenumber": {
-          "setupMessage": "Guess the number channel is set to {channel}",
+          "setupMessage": "kanał gry Guess the number jest przypisany do kanału {channel}",
           "embed": {
-            "title": "Successfully set up Guess The Number!",
-            "description": "Send \\`1\\` to start the game!",
+            "title": "Pomyślnie ustawiono grę Guess The Number!",
+            "description": "Wyślij \\`1\\` aby rozpocząć grę!",
             "fields": [
               {
-                "name": "Warning",
-                "value": "I don't have the permission to send messages in this channel."
+                "name": "Ostrzeżenie",
+                "value": "Nie mam permisji aby wysyłać wiadomości na tym kanale."
               }
             ]
           }
@@ -101,56 +101,56 @@
     },
     "disable": {
       "messages": {
-        "noSetup": "The game could not be disabled, because it has never been set up.",
-        "success": "Successfully disabled the {game} game!"
+        "noSetup": "Gra nie mogła zostać wyłączona, ponieważ nigdy nie została ustawiona.",
+        "success": "Pomyślnie wyłączono grę {game}!"
       }
     },
     "bug": {
       "errorEmbed": {
-        "title": "Error",
-        "description": "This command can only be used in the support server.",
+        "title": "Błąd",
+        "description": "Ta komenda może zostać użyta tylko na serwerze wspierającym.",
         "fields": [
           {
-            "name": "Support Server",
-            "value": "[Click here](https://discord.gg/sAjef42GCP) to join the support server!"
+            "name": "Serwer Wspierający",
+            "value": "[Kliknij tutaj](https://discord.gg/sAjef42GCP) aby dołączyć do wspierającego serwera!"
           }
         ]
       },
       "bugReportEmbed": {
-        "title": "Bug Report",
+        "title": "Zgłoszenie Błędu/Bugu",
         "fields": {
-          "serverName": "Server Name",
-          "serverId": "Server ID",
-          "user": "User",
-          "userId": "User ID",
+          "serverName": "Nazwa Serwera",
+          "serverId": "ID Serwera",
+          "user": "Użytkownik",
+          "userId": "ID Użytkownika",
           "time": {
-            "name": "Time",
-            "timeZone": "Europe/Amsterdam"
+            "name": "Czas",
+            "timeZone": "Europa/Amsterdam"
           },
           "bug": "Bug"
         }
       },
-      "succesMessage": "Thank you for your bug report! We will look into it as soon as possible."
+      "succesMessage": "Dziękujemy za zgłoszenie błędu! Przyglądniemy się problemowi tak szybko jak to możliwe."
     },
     "help": {
       "helpEmbed": {
         "title": "Help - Menu",
-        "description": "Use the dropdown to see all of the commands.\n\nFound a bug? Use the command `/bug [your bug]`!"
+        "description": "Skorzystaj z rozwijanego menu aby zobaczyć wszystkie komendy.\n\nZnalazłes błąd? Użyj komendy `/bug [opis błedu]`!"
       },
       "selectMenu": {
-        "placeholder": "Select a help category",
+        "placeholder": "Wybierz kategorie pomocy",
         "options": [
           {
-            "label": "Fun",
-            "description": "Get the fun commands of the bot.",
+            "label": "Zabawa",
+            "description": "Uzyskaj zabawowe komendy Bota.",
             "emoji": "😄",
-            "value": "fun-commands"
+            "value": "komendy-zabaw"
           },
           {
-            "label": "Setup",
-            "description": "Get the setup commands of the bot.",
+            "label": "Ustaw",
+            "description": "Uzyskaj komendy konfiguracyjne Bota.",
             "emoji": "\uD83D\uDEE0️",
-            "value": "setup-commands"
+            "value": "komendy-konfiguracyjne"
           },
           {
             "label": "Utils",
@@ -163,43 +163,43 @@
     },
     "invite": {
       "inviteEmbed": {
-        "title": "Invite Me \uD83D\uDC4B",
+        "title": "Zaproś mnie \uD83D\uDC4B",
         "description": "I'm a mini-game discord bot.",
         "fields": [
           {
             "name": "Link",
-            "value": "[Click here](https://arc8.fun/invite) to invite me!"
+            "value": "[Kliknij tutaj](https://arc8.fun/invite) aby mnie zaprosić!"
           }
         ]
       }
     },
     "suggest": {
       "errorEmbed": {
-        "title": "Error",
+        "title": "Błąd",
         "description": "This command can only be used in the support server.",
         "fields": [
           {
-            "name": "Support Server",
-            "value": "[Click here](https://discord.gg/sAjef42GCP) to join the support server!"
+            "name": "Serwer Wspierający",
+            "value": "[Click here](https://discord.gg/sAjef42GCP) aby dołączyć do wspierającego serwera!"
           }
         ]
       },
       "suggestionEmbed": {
-        "title": "Suggestion",
+        "title": "Sugestie",
         "fields": {
-          "user": "User",
-          "suggestion": "❗ Suggestion"
+          "user": "Użytkownik",
+          "suggestion": "❗ Sugestie"
         }
       },
-      "successMessage": "Thank you for your suggestion! It is publicly visible in the suggestions channel in our support discord."
+      "successMessage": "Dziękujemy za Twoje sugestie! Są one upublicznione w kanale sugestie na naszym serwerze wspierającym discord."
     },
     "support": {
       "supportEmbed": {
-        "title": "Join the support server! \uD83D\uDC4B",
-        "description": "Do you need help? Click the link below!",
+        "title": "Dołącz do naszego serwera! \uD83D\uDC4B",
+        "description": "Potrzebujesz pomocy? Wejdź w link poniżej!",
         "fields": [
           {
-            "name": "Support Server",
+            "name": "Nasz Serwer",
             "value": "https://discord.gg/BHGmsSkuBH"
           }
         ]
@@ -207,12 +207,12 @@
     },
     "vote": {
       "voteEmbed": {
-        "title": "Vote for our bot! \uD83D\uDC4B",
-        "description": "Vote via the links below!",
+        "title": "Zagłosuj na naszego bota! \uD83D\uDC4B",
+        "description": "Zagłosuj poprzez poniższe linki!",
         "fields": [
           {
-            "name": "Links",
-            "value": "[Vote](https://arc8.fun) Top.gg\n[Vote](https://discordbotlist.com/bots/arc8) DiscordBotList"
+            "name": "Linki",
+            "value": "[Głosuj](https://arc8.fun) Top.gg\n[Vote](https://discordbotlist.com/bots/arc8) DiscordBotList"
           }
         ]
       }
@@ -223,46 +223,46 @@
       "counting": {
         "countingCreate": {
           "incorrectEmbed": {
-            "title": "Incorrect! ❌",
-            "description": "That was incorrect!\nYou have to start all over again, the next number is 1."
+            "title": "Liczyć nie umiesz?❌",
+            "description": "Źle!\nMusisz zacząć od początku, następny numer to 1."
           },
           "countTwiceEmbed": {
-            "title": "You already guessed this number! ❌",
-            "description": "You can not count twice in a row!\nYou have to start all over again, the next number is 1."
+            "title": "Już zgadywałeś! ❌",
+            "description": "Nie bądź zachłanny, nie możesz liczyć dwa razy z rzędu!\nMusisz zacząc od początku, następny numer to1."
           }
         },
         "countingDelete": {
-          "message": "{author} deleted their count of {count}. The next number is {nextCount}."
+          "message": "{author} usunął swoją wiadomość z numerem {count}. Następny numer to {nextCount}."
         },
         "countingUpdate": {
-          "message": "{author} updated their message. The next number is {nextCount}."
+          "message": "{author} poprawił swoją wiadomość. Następny numer to {nextCount}."
         }
       },
       "checkGTN": {
         "correctEmbed": {
-          "title": "You guessed the number correctly! ✅",
-          "description": "A new number has been chosen between 1 and 500."
+          "title": "Poprawnie zgadłeś numer! ✅",
+          "description": "Nowy numer pomiędzy 1, a 500 został wylosowany."
         },
-        "numberLowerMessage": "The number is always 500 and lower."
+        "numberLowerMessage": "Liczby nie wykraczają ponad 500 ani nie schodzą poniżej 0."
       },
       "checkGTW": {
         "correctEmbed": {
-          "title": "Your guess was correct. ✅",
-          "description": "The new word is: {word}"
+          "title": "Twój strzał był poprawny. ✅",
+          "description": "Nowe słowo to: {word}"
         },
         "wrongEmbed": {
-          "title": "Your guess was wrong. ❌",
-          "description": "Try again!\n`The word did not change.`"
+          "title": "Twój strzał był niepoprawny. ❌",
+          "description": "Spróbuj ponownie!\n`Słowo się nie zmieniło.`"
         }
       },
       "checkPing": {
         "embed": {
-          "title": "Hi! \uD83D\uDC4B",
-          "description": "I'm a mini-game discord bot.",
+          "title": "Cześć! \uD83D\uDC4B",
+          "description": "Jestem discordowym botem do mini-gier.",
           "fields": [
             {
-              "name": "Invite me",
-              "value": "[Click here](https://arc8.fun/invite) to invite me!"
+              "name": "Zaproś mnie",
+              "value": "[Kliknij tutaj](https://arc8.fun/invite) aby mnie zaprosić!"
             }
           ]
         }
