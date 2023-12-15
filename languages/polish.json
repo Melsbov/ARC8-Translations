@@ -1,6 +1,3 @@
-### Under here you can find the default file of the language in ARC8. If you wanna translate, copy over the file and make it in your language.
-
-```json
 {
   "noPerms": "Nie masz permisji aby użyć tej komendy.",
   "commands": {
