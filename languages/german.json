@@ -1,0 +1,268 @@
+{
+  "noPerms": "Sie verfügen nicht über die entsprechenden Berechtigungen.",
+  "commands": {
+    "botinfo": {
+      "infoEmbed": {
+        "title": "Bot Informationen",
+        "fields": {
+          "supportServer": "Der Support Server",
+          "botOwners": "Bot Besitzer",
+          "website": "Website",
+          "botJoinDate": "Bot Beitrittsdatum",
+          "inviteMe": "Invite Mich",
+          "totalGuilds": "Anzahl der Gilden",
+          "botVersion": "Bot Version",
+          "botPing": "Bot Ping",
+          "botUptime": "Bot Betriebszeit"
+        }
+      }
+    },
+    "rps": {
+      "messages": {
+        "message1": "Ich hatte",
+        "message2": "Du hattest",
+        "tie": "Wir haben uns beides entschieden für"
+      },
+      "titles": {
+        "win": "Du gewinnst",
+        "lose": "Ich gewinne!",
+        "tie": "Ziehen!"
+      },
+      "error": "Etwas ist schief gelaufen."
+    },
+    "userinfo": {
+      "infoEmbed": {
+        "title": "'s info",
+        "fields": {
+          "userID": "ID",
+          "userNickname": "Spitzname",
+          "userAccountCreated": "Konto erstellt",
+          "userJoinDate": "Benutzerbeitrittsdatum ",
+          "userRoles": "Rollen"
+        }
+      },
+      "noRoles": "Keine Rollen",
+      "noNickname": "Keine Spitzname gefunden."
+    },
+    "setup": {
+      "alreadyInUse": "wird bereits für ein anderes Spiel verwendet.",
+      "settingUpConfig": "Die Standardkonfiguration wird eingerichtet... Bitte versuchen Sie es später noch einmal.",
+      "subCommands": {
+        "messages": {
+          "alreadySetMessage": "Der {game} Kanal ist bereits auf {channel} eingestellt, daher hat sich nichts geändert.",
+          "setupMessage": "Der {game} Kanal wurde in {channel} geändert."
+        },
+        "counting": {
+          "embed": {
+            "title": "Erfolgreich Counting enigerichtet!",
+            "description": "Die nächste Zahl ist {number}.",
+            "fields": [
+              {
+                "name": "Warnung",
+                "value": "Ich habe keine Berechtigung zum Löschen von Beiträgen in diesem Kanal."
+              }
+            ],
+            "footer": {
+              "text": "PS: Die vorherige Nummer wird verwendet (es sei denn, der Bot wird gekickt)!"
+            }
+          }
+        },
+        "guesstheword": {
+          "embed": {
+            "title": "Guess the Word erfolgreich eingerichtet!",
+            "description": "Senden `welcome` um das Spiel zu starten!",
+            "fields": [
+              {
+                "name": "Warnung",
+                "value": "Ich habe keine Berechtigung zum Löschen von Beiträgen in diesem Kanal."
+              }
+            ],
+            "footer": "PS: Die vorherige Nummer wird verwendet (es sei denn, der Bot wird gekickt)!"
+          }
+        },
+        "guessthenumber": {
+          "embed": {
+            "title": "Erfolgreich Guess The Number eingerichtet!",
+            "description": "Um das Spiel zu starten, sende bitte 1!",
+            "fields": [
+              {
+                "name": "Warnung",
+                "value": "Ich habe keine Berechtigung, Nachrichten in diesem Kanal zu löschen."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "disable": {
+      "messages": {
+        "noSetup": "Dieses Spiel konnte nicht beendet werden, da es nie eingerichtet wurde.",
+        "success": "Erfolgreich {game} beendet."
+      }
+    },
+    "bug": {
+      "errorEmbed": {
+        "title": "Fehler",
+        "description": "Dieser Befehl kann nur im Support-Server verwendet werden.",
+        "fields": [
+          {
+            "name": "Der Support Server",
+            "value": "[Klicke hier](https://discord.gg/sAjef42GCP), um dem Support-Server beizutreten!"
+          }
+        ]
+      },
+      "bugReportEmbed": {
+        "title": "Fehlerbericht",
+        "fields": {
+          "serverName": "Servername",
+          "serverId": "Server ID",
+          "user": "Benutzer",
+          "userId": "Benutzer ID",
+          "time": {
+            "name": "Zeit",
+            "timeZone": "Europe/Berlin"
+          },
+          "bug": "Fehler"
+        }
+      },
+      "succesMessage": "Vielen Dank für deinen Bericht! Wir werden uns so schnell wie möglich damit befassen."
+    },
+    "help": {
+      "helpEmbed": {
+        "title": "Hilfe Menü",
+        "description": "Verwende das Dropdown-Menü, um alle Befehle zu sehen. Hast du einen Fehler gefunden? Benutze den Befehl `/bug [dein Fehler]`!"
+      },
+      "selectMenu": {
+        "placeholder": "Wählen Sie eine Hilfskategorie aus.",
+        "options": [
+          {
+            "label": "Spass",
+            "description": "Siehe die Spaßbefehle im Bot.",
+            "emoji": "😄",
+            "value": "fun-commands"
+          },
+          {
+            "label": "Einrichtung",
+            "description": "Siehe die Einrichtungsbefehle im Bot.",
+            "emoji": "\uD83D\uDEE0️",
+            "value": "setup-commands"
+          },
+          {
+            "label": "Hilfsprogramme",
+            "description": "Siehe die Hilfsprogramm-Befehle im Bot",
+            "emoji": "\uD83E\uDE9B",
+            "value": "util-commands"
+          }
+        ]
+      }
+    },
+    "invite": {
+      "inviteEmbed": {
+        "title": "Lade mich ein \uD83D\uDC4B",
+        "description": "Ich bin ein Mini-Spiel-Bot",
+        "fields": [
+          {
+            "name": "Link",
+            "value": "[Klicke hier](https://arc8.fun/invite) um mich einzuladen!"
+          }
+        ]
+      }
+    },
+    "suggest": {
+      "errorEmbed": {
+        "title": "Fehler",
+        "description": "Dieser Befehl kann nur im Support-Server ausgeführt werden.",
+        "fields": [
+          {
+            "name": "Support Server",
+            "value": "[Klicke hier](https://discord.gg/sAjef42GCP) um dem Support-Server beizutreten!"
+          }
+        ]
+      },
+      "suggestionEmbed": {
+        "title": "Vorschlag",
+        "fields": {
+          "user": "Benutzer",
+          "suggestion": "❗ Vorschlag"
+        }
+      },
+      "successMessage": "Vielen Dank für deinen Vorschlag! Dein Vorschlag ist jetzt öffentlich in unserem Support Server sichtbar."
+    },
+    "support": {
+      "supportEmbed": {
+        "title": "Trete dem Support-Server bei! \uD83D\uDC4B",
+        "description": "Brauchst du Hilfe? Klicke auf den unten stehenden Link!",
+        "fields": [
+          {
+            "name": "Support Server",
+            "value": "https://discord.gg/BHGmsSkuBH"
+          }
+        ]
+      }
+    },
+    "vote": {
+      "voteEmbed": {
+        "title": "Stimme für ARC8 ab! \uD83D\uDC4B",
+        "description": "Stimme über die unten stehenden Links ab!",
+        "fields": [
+          {
+            "name": "Links",
+            "value": "[Abstimmen](https://top.gg/bot/997811856431386655) Top.gg\n[Abstimmen](https://discordbotlist.com/bots/arc8) DiscordBotList"
+          }
+        ]
+      }
+    }
+  },
+  "events": {
+    "message": {
+      "counting": {
+        "countingCreate": {
+          "incorrectEmbed": {
+            "title": "Fehler! ❌",
+            "description": "Das war nicht richtig!\nDu musst jetzt von vorne beginnen. Die nächste Zahl ist `1`."
+          },
+          "countTwiceEmbed": {
+            "title": "Du hast bereits gezählt! ❌",
+            "description": "Du kannst nicht zweimal hintereinander zählen!\nDu musst jetzt von vorne beginnen. Die nächste Zahl ist `1`."
+          }
+        },
+        "countingDelete": {
+          "message": "{author} hat seine/ihre Nachricht gelöscht {count}. Die nächste Nummer ist {nextCount}."
+        },
+        "countingUpdate": {
+          "message": "{author} hat seine/ihre Nachricht gelöscht. Die nächste Nummer ist {nextCount}."
+        }
+      },
+      "checkGTN": {
+        "correctEmbed": {
+          "title": "Du hast die Zahl richtig geraten! ✅",
+          "description": "Es wurde eine neue Zahl zwischen 1 und 500 ausgewählt."
+        },
+        "numberLowerMessage": "Die Zahl ist immer 500 oder niedriger!"
+      },
+      "checkGTW": {
+        "correctEmbed": {
+          "title": "Das war richtig. ✅",
+          "description": "Das neue Wort ist: {word}"
+        },
+        "wrongEmbed": {
+          "title": "Das ist nicht richtig. ❌",
+          "description": "Versuche es erneut!\n`Das Wort hat sich nicht geändert.`"
+        }
+      },
+      "checkPing": {
+        "embed": {
+          "title": "Hallo! \uD83D\uDC4B",
+          "description": "Ich bin ein Mini-Spiel-Bot.",
+          "fields": [
+            {
+              "name": "Lade mich ein.",
+              "value": "[Klicke hier](https://arc8.fun/invite) um mich einzuladen!"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
+

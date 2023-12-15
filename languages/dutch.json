@@ -1,0 +1,267 @@
+{
+  "noPerms": "Je hebt niet de permissies om dit uit te voeren.",
+  "commands": {
+    "botinfo": {
+      "infoEmbed": {
+        "title": "Bot Informatie",
+        "fields": {
+          "supportServer": "Support Server",
+          "botOwners": "Bot Eigenaren",
+          "website": "Website",
+          "botJoinDate": "Bot Join Datum",
+          "inviteMe": "Invite Me",
+          "totalGuilds": "Aantal Guilds",
+          "botVersion": "Bot Versie",
+          "botPing": "Bot Ping",
+          "botUptime": "Bot Uptime"
+        }
+      }
+    },
+    "rps": {
+      "messages": {
+        "message1": "Ik had",
+        "message2": "Jij had",
+        "tie": "We kozen beide"
+      },
+      "titles": {
+        "win": "Jij wint!",
+        "lose": "Ik win!",
+        "tie": "Gelijkspel!"
+      },
+      "error": "Iets ging mis."
+    },
+    "userinfo": {
+      "infoEmbed": {
+        "title": "'s info",
+        "fields": {
+          "userID": "ID",
+          "userNickname": "Nickname",
+          "userAccountCreated": "Account Gemaakt",
+          "userJoinDate": "User Join Datum",
+          "userRoles": "Rollen"
+        }
+      },
+      "noRoles": "No roles",
+      "noNickname": "Geen nickname gevonden"
+    },
+    "setup": {
+      "alreadyInUse": "is al in gebruik voor een ander spel.",
+      "settingUpConfig": "Bezig met het opzetten van de standaard configuratie... Probeer het later opnieuw.",
+      "subCommands": {
+        "messages": {
+          "alreadySetMessage": "{game} kanaal is al gezet naar {channel}, dus niets is veranderd.",
+          "setupMessage": "{game} kanaal is veranderd naar {channel}"
+        },
+        "counting": {
+          "embed": {
+            "title": "Succesvol counting opgezet!",
+            "description": "Het volgende getal is {number}",
+            "fields": [
+              {
+                "name": "Waarschuwing",
+                "value": "Ik heb geen permissies om berichten te verwijderen in dit kanaal."
+              }
+            ],
+            "footer": {
+              "text": "PS: Het vorige getal wordt gebruikt (behalve als de bot gekickt is)!"
+            }
+          }
+        },
+        "guesstheword": {
+          "embed": {
+            "title": "Succesvol Guess the Word opgezet!",
+            "description": "Stuur `welcome` om het spel te starten!",
+            "fields": [
+              {
+                "name": "Waarschuwing",
+                "value": "Ik heb geen permissies om berichten te verwijderen in dit kanaal."
+              }
+            ],
+            "footer": "PS: Het vorige getal wordt gebruikt (behalve als de bot gekickt is)!"
+          }
+        },
+        "guessthenumber": {
+          "embed": {
+            "title": "Succesvol Guess The Number opgezet!",
+            "description": "Stuur \\`1\\` om het spel te starten!",
+            "fields": [
+              {
+                "name": "Waarschuwing",
+                "value": "Ik heb geen permissies om berichten te verwijderen in dit kanaal."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "disable": {
+      "messages": {
+        "noSetup": "Deze game kon niet worden uitgezet, omdat het nooit is opgezet.",
+        "success": "Succesvol {game} uitgezet."
+      }
+    },
+    "bug": {
+      "errorEmbed": {
+        "title": "Error",
+        "description": "Dit command kan je alleen in de support server gebruiken.",
+        "fields": [
+          {
+            "name": "Support Server",
+            "value": "[Klik hier](https://discord.gg/sAjef42GCP) om de support server te joinen!"
+          }
+        ]
+      },
+      "bugReportEmbed": {
+        "title": "Bug Report",
+        "fields": {
+          "serverName": "Server Naam",
+          "serverId": "Server ID",
+          "user": "User",
+          "userId": "User ID",
+          "time": {
+            "name": "Time",
+            "timeZone": "Europe/Amsterdam"
+          },
+          "bug": "Bug"
+        }
+      },
+      "succesMessage": "Bedank voor je report! We gaan er zo snel mogelijk naar kijken."
+    },
+    "help": {
+      "helpEmbed": {
+        "title": "Help - Menu",
+        "description": "Gebruik de dropdown om alle commands te zien.\n\nHeb je een bug gevonden? Gebruik de command `/bug [jouw bug]`!"
+      },
+      "selectMenu": {
+        "placeholder": "Selecteer een hulp categorie",
+        "options": [
+          {
+            "label": "Fun",
+            "description": "Zie de fun commands in de bot",
+            "emoji": "😄",
+            "value": "fun-commands"
+          },
+          {
+            "label": "Setup",
+            "description": "Zie de setup commands in de bot",
+            "emoji": "\uD83D\uDEE0️",
+            "value": "setup-commands"
+          },
+          {
+            "label": "Utils",
+            "description": "Zie de utils commands in de bot",
+            "emoji": "\uD83E\uDE9B",
+            "value": "util-commands"
+          }
+        ]
+      }
+    },
+    "invite": {
+      "inviteEmbed": {
+        "title": "Nodig mij uit \uD83D\uDC4B",
+        "description": "Ik ben een mini-game bot",
+        "fields": [
+          {
+            "name": "Link",
+            "value": "[Klik hier](https://arc8.fun/invite) om mij uit te nodigen!"
+          }
+        ]
+      }
+    },
+    "suggest": {
+      "errorEmbed": {
+        "title": "Error",
+        "description": "Dit command kan alleen uitgevoerd worden in de support server.",
+        "fields": [
+          {
+            "name": "Support Server",
+            "value": "[Klik hier](https://discord.gg/sAjef42GCP) om de support server te joinen!"
+          }
+        ]
+      },
+      "suggestionEmbed": {
+        "title": "Suggestion",
+        "fields": {
+          "user": "User",
+          "suggestion": "❗ Suggestion"
+        }
+      },
+      "successMessage": "Bedankt voor je suggestie! Jouw suggestie is nu publiekelijk te zien in onze support server."
+    },
+    "support": {
+      "supportEmbed": {
+        "title": "Join the support server! \uD83D\uDC4B",
+        "description": "Heb je hulp nodig? Klik op de link hieronder!",
+        "fields": [
+          {
+            "name": "Support Server",
+            "value": "https://discord.gg/BHGmsSkuBH"
+          }
+        ]
+      }
+    },
+    "vote": {
+      "voteEmbed": {
+        "title": "Vote voor ARC8! \uD83D\uDC4B",
+        "description": "Vote via de links hieronder!",
+        "fields": [
+          {
+            "name": "Links",
+            "value": "[Vote](https://top.gg/bot/997811856431386655) Top.gg\n[Vote](https://discordbotlist.com/bots/arc8) DiscordBotList"
+          }
+        ]
+      }
+    }
+  },
+  "events": {
+    "message": {
+      "counting": {
+        "countingCreate": {
+          "incorrectEmbed": {
+            "title": "Fout! ❌",
+            "description": "dat was niet goed!\nJe moet nu opnieuw beginnen, het volgende nummer is `1`."
+          },
+          "countTwiceEmbed": {
+            "title": "Jij hebt al geteld! ❌",
+            "description": "Je kan niet 2 keer achter mekaar tellen!\nJe moet nu opnieuw beginnen, het volgende nummer is `1`."
+          }
+        },
+        "countingDelete": {
+          "message": "{author} Heeft zijn/haar bericht verwijdert {count}. Het volgende nummer is {nextCount}."
+        },
+        "countingUpdate": {
+          "message": "{author} Heeft zijn/haar bericht verwijdert. Het volgende nummer is {nextCount}."
+        }
+      },
+      "checkGTN": {
+        "correctEmbed": {
+          "title": "Je hebt het nummer goed geraden! ✅",
+          "description": "Er is een nieuw getal gekozen tussen de 1 en 500."
+        },
+        "numberLowerMessage": "Het nummer is altijd 500 of lager!"
+      },
+      "checkGTW": {
+        "correctEmbed": {
+          "title": "Dit was goed. ✅",
+          "description": "Het nieuwe woord is: {word}"
+        },
+        "wrongEmbed": {
+          "title": "Dit is niet goed. ❌",
+          "description": "Probeer het opnieuw!\n`Het woord is niet verandert.`"
+        }
+      },
+      "checkPing": {
+        "embed": {
+          "title": "Hey! \uD83D\uDC4B",
+          "description": "Ik ben een mini-game bot",
+          "fields": [
+            {
+              "name": "Invite me",
+              "value": "[Klik hier](https://arc8.fun/invite) om mij te invite!"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
